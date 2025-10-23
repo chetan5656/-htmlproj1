@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Eatfit Blog</title>
+  <link rel="stylesheet" href="ass1.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="#">Home</a>
+        <a href="#">order</a>
+        <a href="#">contact</a>
+      </div>
+      <div class="nav-right">
+        <a href="#"><img src="instagram-icon.png" alt="Instagram" /></a>
+        <a href="#"><img src="close-icon.png" alt="Close" /></a>
+        <a href="#"><img src="youtube-icon.png" alt="YouTube" /></a>
+      </div>
+    </nav>
+    <div class="blog-logo">
+      <img src="https://plus.unsplash.com/premium_photo-1674374441570-bbb735e8920b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMGxvZ298ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900" alt="Eatfit Blog Logo" />
+      <h1>great food</h1>
+    </div>
+    <div class="tabs">
+      <a class="tab active" href="#">Featured</a>
+      <a class="tab" href="#">Health & Diet</a>
+      <a class="tab" href="#">Meal Plans</a>
+      <a class="tab" href="#">Food & Drinks</a>
+    </div>
+    <hr class="divider" />
+  </header>
+
+  <main>
+    <section class="card-grid">
+      <div class="blog-card">
+        <div class="card-img-container">
+          <img src="https://images.unsplash.com/photo-1683533743190-89c9b19f9ea6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFyYXRoYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900" alt="Paratha Love Blog">
+          
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">Paratha Love: Unveiling the Magic of Stuffed Flatbreads</h2>
+          <p class="card-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores, est distinctio molestiae soluta, sit suscipit dolor ipsa repudiandae, cupiditate voluptatem. Vitae provident ipsum commodi aut iusto blanditiis. Laborum, ipsa.
+          </p>
+          
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="card-img-container">
+          <img src="https://plus.unsplash.com/premium_photo-1694141252026-3df1de888a21?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJpcnlhbml8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900" alt="Dal Khichdi Blog">
+          
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">Hyderabadi dum biryani</h2>
+          <p class="card-desc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur voluptates placeat quis rerum perspiciatis alias. Doloribus nisi, consequuntur cumque vero voluptatum quam exercitationem eos blanditiis sunt atque error? Animi, quisquam.
+          </p>
+          
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="card-img-container">
+          <img src="https://images.unsplash.com/photo-1610515304527-cb9932040f4a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JpbGwlMjBjaGlja2VufGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900" alt="Lunch Box Blog">
+          
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">Grill chicken</h2>
+          <p class="card-desc">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quod. Repudiandae culpa illo necessitatibus sed officiis similique nobis. Et, exercitationem consequuntur eveniet esse natus necessitatibus deserunt possimus dolorem praesentium iste?
+          </p>
+          
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f59e9e;
+  color: #252525;
+}
+
+header {
+  background: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 32px 5px 32px;
+}
+
+.nav-left a, .nav-right a {
+  color: #24292f;
+  text-decoration: none;
+  margin: 0 18px 0 0;
+  font-size: 17px;
+}
+
+.nav-right a {
+  margin: 0 0 0 12px;
+}
+
+.nav-right img {
+  width: 23px;
+  height: 23px;
+  vertical-align: middle;
+}
+
+.blog-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.blog-logo img {
+  width: 70px;
+  margin-bottom: 10px;
+}
+.blog-logo h1 {
+  font-size: 38px;
+  color: #01000e;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.tab {
+  padding: 8px 30px;
+  text-decoration: none;
+  color: #21205b;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 3px solid transparent;
+  transition: color 0.2s;
+}
+
+.tab.active {
+  color: #00d13f;
+  border-bottom: 3px solid #d1c300;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #f0f0f0;
+  margin: 0 0 10px 0;
+}
+
+.card-grid {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding: 32px 12px;
+  background: #fff;
+}
+
+.blog-card {
+  background: #faf9fe;
+  
+  box-shadow: 0 3px 9px rgba(60, 70, 80, 0.10);
+  overflow: hidden;
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s;
+}
+
+.blog-card:hover {
+  box-shadow: 0 6px 18px rgba(60, 70, 80, 0.18);
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.card-img-container img {
+  width: 100%;
+  height: 185px;
+  object-fit: cover;
+}
+
+.tag {
+  position: absolute;
+  top: 13px;
+  right: 11px;
+  background: #1d468f;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 4px 12px;
+  border-radius: 7px;
+  letter-spacing: 0.5px;
+}
+
+.card-content {
+  padding: 18px 22px 12px 22px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  color: #102152;
+}
+
+.card-desc {
+  font-size: 16px;
+  color: #393939;
+  margin-bottom: 19px;
+}
+
+.read-more {
+  color: #d10074;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  display: inline-block;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  color: #b1b1b1;
+  font-size: 14px;
+  margin-top: auto;
+  gap: 6px;
+}
